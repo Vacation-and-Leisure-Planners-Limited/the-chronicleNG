@@ -291,6 +291,8 @@ RIGHT SIDEBAR TOGGLE SECTION
                                     <li class="active"><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="booking.html">Booking</a></li>
+                                    <li><a href="{{ route('login') }}">login</a></li>
+                                    <li><a href="{{ route('register') }}">register</a></li>
                                     <li><a href="gallery.html">Gallery</a></li>
                                     <li class="dropdown">
                                         <a href="index.html#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
