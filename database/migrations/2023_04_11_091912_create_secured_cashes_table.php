@@ -16,7 +16,7 @@ return new class extends Migration
             $table->id();
             $table->foreignIdFor(User::class)->constrained();
             $table->double('balance', 8, 2)->default(0);
-            $table->string('pin');
+            $table->string('pin')->nullable();
             $table->timestamps();
         });
     }
